@@ -31,12 +31,12 @@ Caleo compares prices between **Mercadona** and **DIA**, helping users find the 
 
 Caleo was built to solve a simple, everyday problem: groceries cost different amounts depending on where you buy them, and comparing prices manually across supermarkets is tedious. Caleo automates that comparison, normalizes products across stores that label the same item differently, and shows users exactly how much they can save on a given shopping list.
 
-The core engine is a **two-pass LLM normalization pipeline** (Claude Haiku + SequenceMatcher fallback) that matches ~7,500 products between Mercadona and DIA with a ~96.5% accuracy rate. On top of that, an integrated chatbot ("Paco", powered by Groq) answers questions using real, live database context.
+The core engine is a **two-pass LLM normalization pipeline** (Claude Haiku + SequenceMatcher fallback) that matches 7,500 products between Mercadona and DIA with a 96.5% accuracy rate. On top of that, an integrated chatbot ("Paco", powered by Groq) answers questions using real, live database context.
 
 ## Features
 
 - Real-time price comparison between Mercadona and DIA
-- LLM-powered product normalization pipeline (~96.5% match rate across ~7,500 products)
+- LLM-powered product normalization pipeline (96.5% match rate across 7,500 products)
 - "Paco" — an AI shopping assistant with live database context injection
 - Shopping list management with savings calculations
 - Price history tracking
